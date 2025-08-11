@@ -8,6 +8,9 @@ on:
         required:  true
         default:   "This text is passed using input"
 
+  push:
+    branches:
+      - main
 
 jobs:
   input-display-job:
